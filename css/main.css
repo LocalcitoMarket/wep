@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+   height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100;
+    background: #f0f0f0;
+    font-family: 'Montserrat' , sans-serif;
+    overflow-x: hidden;
+    
+}
+
+#menu a{
+    font-size:17px;
+    font-weight:bold;
+    color:#181818;
+}
+
+
+
+.carrusel-inner{
+    max-height: 39rem;
+}
+
+
+@media (max-width:768px) {
+    #intro {
+        width:90% !important;
+    }
+}
+
+.servicio-fila{
+    width: 100% !important;
+    text-align: center;
+}
+
+
+
+
+
+@media(max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
+
+
+
+
+
+
